@@ -7,9 +7,10 @@ This is the final project for the course "Desenvolvimento de Software Orientado 
 ## 5G Healthcare architecture
 
 <p align="justify">
-The network core will be implemented using the free5gc simulator, the User Equipment (UE) devices will be designed using Mininet Wi-Fi simulator and the application and data will be injected with JSON files using React.
+The network core is implemented using the free5GC simulator to activate all network's main components (NRF, UDR, UDM, AUSF, NSSF, AMF, NWDAF, PCF, SMF and UPF). When the User Equipment (UE) devices are properly registered, they are assigned using the my5G-RANTester implementation, and all data that flows trough this newtork is stored in a MongoDB Database.
 </p>
 
+![5G Healthcare Network Architecture](./images/arch_5g.png)
 ## Testing
 
 <p align="justify">
