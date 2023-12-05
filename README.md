@@ -122,9 +122,19 @@ cd webconsole/frontend/
 REACT_APP_HTTP_API_URL=http://127.0.0.1:5000/api PORT=3000 yarn start 
 ```
 
-### How to test
-
-
-
 ## Main results
+
+In order to analyse the performance of the proposed solution for this 5G network scenario application, we have considered crucial to observe the delay, jitter and packet delivery ratio values obtained when performing communication between the two UEs.
+
+Often referred to as latency, delay is the time taken for a data packet to travel from the source to the destination.Low latency is essential for real-time applications such as voice and video calls, online gaming, and augmented reality/virtual reality (AR/VR). High latency can result in noticeable delays and degrade the user experience.Certain applications, such as autonomous vehicles and industrial automation, require low latency to ensure timely and responsive communication.
+
+Jitter is the variation in delay between received packets. In other words, it measures the inconsistency or variability in packet arrival times.Applications like streaming video and voice over IP (VoIP) require a consistent and smooth flow of data. Jitter can lead to disruptions in the quality of these services.Maintaining low jitter is essential for meeting QoS requirements, especially in real-time communication scenarios.
+
+Packet delivery ratio is the ratio of successfully delivered packets to the total number of sent packets.A high packet delivery ratio indicates a reliable network, ensuring that data is successfully transmitted without loss. Monitoring packet delivery ratio helps identify potential network issues and assess the overall quality of the communication channel.
+
+In a 5G network, where diverse applications with varying requirements coexist, optimizing these metrics becomes crucial for providing a seamless and efficient user experience. 
+
+## Issues
+
+Our current project implementation has unresolved issues with the iptables that does not allow the communication between the UEs or external networks. Therefore, while this problem is not fixed, we leave the test suggestions here to send the simulated data from UE to another and use the stored information in the NWDAF module to generate graphics with the separated code to analyse the results in terms of delay, jitter and packet delivery ratio.
 

@@ -31,8 +31,8 @@ func main() {
 	}
 	defer client.Disconnect(context.TODO())
 
-	// Access your collection
-	collection := client.Database("your_database").Collection(DataCollectionAmfRegistration)
+	// Access collection
+	collection := client.Database("nwdaf").Collection(DataCollectionAmfRegistration)
 
 	// Retrieve data from MongoDB
 	cursor, err := collection.Find(context.TODO(), nil)
