@@ -1,6 +1,0 @@
-[submodule "free5gc"]
-	path = free5gc
-	url = https://github.com/ciromacedo/free5gc-v3.0.5
-[submodule "my5G-RANTester"]
-	path = my5G-RANTester
-	url = https://github.com/my5G/my5G-RANTester
