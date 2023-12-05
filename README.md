@@ -101,7 +101,16 @@ To run NFR, UDR, UDM, AUSF, NSSF, AMF, NWDAF, PCF and SMF components, run the fo
 cd NFs/<name of the component>
 go run <name of the component>.go
 ```
-In order to run UPF, use:
+
+In order to run UPF, first it is necessary to set the iptables rules through a separated script from the main project directory:
+
+```
+cd scripts/
+chmod +x config_iptables.sh
+./config_iptables.sh
+```
+
+Once the iptables rules are set, the UPF module can be activated:
 
 ```
 cd NFs/upf/build
