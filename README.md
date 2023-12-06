@@ -17,6 +17,14 @@ The network core is implemented using the free5GC simulator to activate all netw
 Considering a private network infra-structure in a hospital complex, there is a scenario with two UEs registered. One is placed in the server-side as a patient monitoring device that will keep track of the patient's vital signs and send them to a gNodeB Base Station that will relay this data using the 5G Core Network infra-structure to send it to another UE registered as an Iot Device of a physician in the front-end side, that based on the vital signs' analysis will be able to take the proper action to ensure the patient well being with fast responses from any location within the hospital complex without the need of physical proximity with the patient.
 </p>
 
+## A little about of the FrontEnd
+<p align="justify">
+The team designed a frontend to emulate a vision where we have a online hospital getting data from a hospital private network 5G using the free5GC to provide the 5G network. Unfortunately we are unable to connect more than one UE's. We are doing some trial's and our expectation is to finish this work in Jan/2024.
+</p>
+
+![Principal Screen](./images/PrincipalScreen.png)
+![EcgView](./images/EcgView.png)
+
 ## Main dependencies
 
 ### The minimum hardware requirement and software to run this experiment in simulation mode are:
