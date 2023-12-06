@@ -144,7 +144,7 @@ sudo ./app load-test -n 2
 Our current project implementation has unresolved issues with the iptables that does not allow the communication between the UEs or external networks. Therefore, while this problem is not fixed, we leave the test suggestions here to send the simulated data from UE to another and use the stored information in the NWDAF module to generate graphics with the separated code to analyse the results in terms of delay, jitter and packet delivery ratio.
 </p>
 
-## The FrontEnd Data Application
+## FrontEnd Application
 <p align="justify">
 In order to provide an interface to emulate a hospital web system, a frontEnd application in REACT was developed to enable physicians and hospital staff to register new users and monitorate patients by generating random simulated ECGs vital signs that would be sent through the network in the form of an array of numeric values to be stored in the MongoDB and analyzed by the NWDAF module to provide valuable information to the UE positioned in the server-side of this scenario.
 </p>
