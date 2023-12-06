@@ -4,3 +4,6 @@
 [submodule "my5G-RANTester"]
 	path = my5G-RANTester
 	url = https://github.com/my5G/my5G-RANTester
+[submodule "frontEcgDemo"]
+	path = frontEcgDemo
+	url = https://github.com/magelafigu/frontEcgFree5GC.git
